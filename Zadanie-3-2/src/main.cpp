@@ -2,7 +2,7 @@
 #include <LiquidCrystal.h>
 
 #define buttonUp 11
-#defina buttonDown 13
+#define buttonDown 13
 
 LiquidCrystal lcd(9, 8, 7, 6, 5, 4);
 int menu=1;
@@ -43,8 +43,9 @@ void changeMenu(void){
     }
   }
   if(digitalRead(buttonDown) == HIGH){
-    menu=menu-1{
-      menu=1;
+    menu=menu-1;
+    if(menu=1){
+      menu=3;
     }
   }
 }
