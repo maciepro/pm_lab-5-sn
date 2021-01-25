@@ -13,4 +13,5 @@ Numer albumu: 72547
 Grupa studencka: WEL18DE1S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+PWM steruje szerokością impulsów czyli pracą silnika przy większej temperaturze jest większy czas szerokości impulsu co powoduje wzrost PWM
+Tranzystor pozwala przepuszczać większe prądy do silnika 
